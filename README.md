@@ -91,7 +91,3 @@ ruff check src tests
 ## 许可证
 
 本项目采用 [MIT 许可证](LICENSE)。
-
-## CI 配置说明
-
-GitHub Actions 配置文件位于仓库根目录的 `ci.yml`。由于发布环境的 API 通道限制,文件未能放入标准的 `.github/workflows/` 路径。若需启用 Actions,请将 `ci.yml` 移动到 `.github/workflows/ci.yml` 即可。
